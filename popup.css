@@ -1,0 +1,25 @@
+body{
+    width: 400px;
+    padding: 5px;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+h1{
+    font-size: xx-large;
+    color: rgb(255, 255, 0);
+}
+.container{
+    padding: 10px;
+}
+.social{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}

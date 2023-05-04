@@ -1,0 +1,22 @@
+{
+    "name" : "Keep AI",
+    "description" :"Use the power of ChatGPT to write your notes",
+    "author":"Subhani Syed",
+    "manifest_version":3,
+    "version":"0.0.1",
+    "permissions":["activeTab"],
+    "icons":{
+        "128":"icon128.png"
+    },
+    "action":{
+        "default_popup":"popup.html"
+    },
+    "content_scripts":[
+        {
+            "matches":["<all_urls>"],
+            "runAt":"document_end",
+            "js":["content.js"],
+            "all_frames":true
+        }
+    ]
+}
